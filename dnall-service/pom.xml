@@ -10,6 +10,7 @@
     <artifactId>dnall-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>dnall-service</name>
+    <packaging>jar</packaging>
     <description>dnall-service</description>
     <properties>
         <java.version>1.8</java.version>
@@ -25,6 +26,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
     <dependencyManagement>
