@@ -8,5 +8,4 @@ import java.util.List;
 public class SmsCall {
     private List<String> phones;
     private String content;
-    private String customId;
 }
