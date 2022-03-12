@@ -1,4 +1,4 @@
-package cn.codeerever.dnall.service;
+package cn.codeerever.dnall.core.constants;
 
 public enum Channel {
     sms,
